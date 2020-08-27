@@ -7,10 +7,11 @@ software engineer or company can take and use to deliver value with in their own
 
 ### Features:
 
-- Ability to turn on the camera
-- Ability to take a photo
+- ~~Ability to turn on the camera~~ (OBE)
+- [x] Ability to use the Camera (Complete)
 - Ability to use the camera to detect an object in frame (different than identifying the object)
 - Ability to identify the detected object
+- Ability to take a photo of the identified object
 
 ### Installation
 
