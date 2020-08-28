@@ -13,6 +13,10 @@ export default function HomeScreen({ navigation }: any) {
         title="Go to Results"
         onPress={() => navigation.navigate('Results')}
       />
+      <Button
+        title="Go to Tensorflow"
+        onPress={() => navigation.navigate('Tensorflow')}
+      />
     </View>
   );
 }

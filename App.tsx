@@ -6,6 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './src/components/screens/HomeScreen';
 import CameraScreen from './src/components/screens/CameraScreen';
 import ResultsScreen from './src/components/screens/ResultsScreen';
+import TensorFlowScreen from './src/components/screens/TensorFlowScreen';
 
 const Stack = createStackNavigator();
 
@@ -16,6 +17,7 @@ function App() {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Camera" component={CameraScreen} />
         <Stack.Screen name="Results" component={ResultsScreen} />
+        <Stack.Screen name="Tensorflow" component={TensorFlowScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
