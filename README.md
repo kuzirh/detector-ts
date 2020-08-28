@@ -24,5 +24,3 @@ After forking or cloning the project, there are some things that you will want t
 1. Navigate to the expo application on your movile device, and hit the `Scan QR Code` button, then scan the QR code.
 1. Once you have scanned the QR code, the project will begin to build on your phone.
 1. When the build process is done, you will be free to navigate through the application on your mobile device.
-
-TESTING COMMITS
