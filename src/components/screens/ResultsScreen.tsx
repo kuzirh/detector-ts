@@ -1,14 +1,10 @@
-import * as React from 'react';
-import { View, Text, Button } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { View, Text } from 'react-native';
 
-export default function ResultsScreen({ navigation }: any) {
+export default function ResultsScreen() {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen</Text>
-      <Button
-        title="Go to Camera"
-        onPress={() => navigation.navigate('Camera')}
-      />
+      <Text>OCR results here</Text>
     </View>
   );
 }
